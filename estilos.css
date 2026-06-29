@@ -1,0 +1,83 @@
+body{
+
+    background:#f0f0f0;
+
+    font-family:Arial;
+
+    text-align:center;
+
+    margin:0;
+
+    padding:20px;
+
+}
+
+h1{
+
+    color:#1E88E5;
+
+}
+
+#temperatura{
+
+    font-size:40px;
+
+    font-weight:bold;
+
+    margin:25px;
+
+}
+
+#termometro{
+
+    width:90px;
+
+    height:420px;
+
+    border:5px solid black;
+
+    border-radius:50px;
+
+    margin:auto;
+
+    position:relative;
+
+    background:white;
+
+    overflow:hidden;
+
+}
+
+#barra{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:100%;
+
+    height:0%;
+
+    background:red;
+
+    transition:0.5s;
+
+}
+
+#bulbo{
+
+    width:120px;
+
+    height:120px;
+
+    background:red;
+
+    border-radius:100%;
+
+    border:5px solid black;
+
+    margin:auto;
+
+    margin-top:-10px;
+
+}
